@@ -1,26 +1,21 @@
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: #E5E5E5;
     margin: 0px;
     padding: 0px;
 }
 .text-highlight{
     color: orange;
 }
-
 .text-color{
     color: #575757;
 }
-
 #first-h1{
     font-weight: 700;
     font-size: 40px;
 }
-
 .paragraph-color{
     color:#828282;
 }
-
 .button-decoration{
     height: 40px;
     width: 120px;
@@ -40,8 +35,7 @@ body{
      display: flex;
      margin-left: 100px;
      padding: 30px;
-     align-items: center;
-     
+     align-items: center;    
  }
 
 
@@ -51,18 +45,104 @@ body{
      display: flex;
      padding: 30px;
      align-items: center;
-
-
  }
-
  #second-div-image{
     width: 358.26px;
     height: 447.23px;
     margin-left: 100px;
  }
-
  #second-section-second-div{
     margin-left: 250px;  
  }
 
 
+ #third-section{
+     text-align: center;
+     margin-top: 50px;
+     margin-bottom: 50px;
+ }
+
+
+#forth-section{
+    display: flex;
+    margin-bottom: 50px;
+}
+ .cards{
+     width: 25%;
+     height: 450px;
+     margin-left: 60px;
+     padding-left: 23px;
+     padding-top: 25px;
+     box-shadow: 10px 10px 40px lightgray;
+     border-radius: 15px;
+ }
+ .cards img{
+     width: 285px;
+     height: 200px;
+     border-radius: 10px;
+     margin-bottom: 25px;
+ }
+
+
+ #fifth-section{
+     display: flex;
+     box-shadow: 10px 10px 40px lightgray;
+     border-radius: 10px;
+     margin-left: 60px;
+     margin-right: 60px;
+     margin-top: 80px;
+     margin-bottom: 50px;
+     height: 150px; 
+ }
+ .subscriber{
+     margin-left: 200px;
+     margin-top: 25px;
+ }
+ .subscriber h1{
+     margin-bottom: 5px;
+ }
+
+
+ #footer{
+     text-align: center;
+     background-color: black;
+     height: 120px;
+     padding-top: 10px;
+     
+ }
+ #footer-text-color{
+     color: #5b5b5b;
+ }
+ #footer p{
+     color: white;
+ }
+
+
+#first-extra-section{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.extra-button{
+    border: none;
+    height: 40px;
+    width: 150px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 25px;
+    background-image: linear-gradient(90deg, #ff6a00, #f7893b);
+    color: white;
+}
+#second-extra-section{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.box{
+    width: 400px;
+    height: 200px;
+    box-shadow: 0px 10px 40px lightgray;
+    margin: 30px;
+    padding: 20px;
+    border-left: 5px solid orange;
+    border-bottom: 5px solid orange;
+}
